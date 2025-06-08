@@ -1,0 +1,988 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>José Cervera - Docente Informático y Desarrollador Web</title>
+    <meta name="description" content="Portafolio profesional de José Cervera, Docente Informático y Desarrollador Web Frontend especializado en HTML5, CSS3, JavaScript y tecnologías modernas.">
+    <meta name="keywords" content="José Cervera, Desarrollador Web, Frontend, HTML5, CSS3, JavaScript, Bootstrap, PHP, MySQL, Docente Informático">
+    <meta name="author" content="José Cervera">
+    
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="José Cervera - Docente Informático y Desarrollador Web Frontend">
+    <meta property="og:description" content="Portafolio profesional de José Cervera, especializado en desarrollo web frontend y formación tecnológica.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://portafoliocervereta.22web.org/">
+    
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="images/favicon.jpg">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    
+    <!-- AOS Animation Library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+    <!-- Preloader -->
+    <div id="preloader">
+        <div class="preloader-content">
+            <div class="code-animation">
+                <span class="bracket">&lt;</span>
+                <span class="tag">José Cervera</span>
+                <span class="bracket">/&gt;</span>
+            </div>
+            <div class="loading-bar">
+                <div class="loading-progress"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home" class="logo-link">
+                    <span class="logo-bracket">&lt;</span>
+                    <span class="logo-name">José Cervera</span>
+                    <span class="logo-bracket">/&gt;</span>
+                </a>
+            </div>
+            <div class="nav-menu" id="nav-menu">
+                <a href="#home" class="nav-link active" data-section="home">
+                    <i class="fas fa-home nav-icon"></i>
+                    <span>Inicio</span>
+                </a>
+                <a href="#about" class="nav-link" data-section="about">
+                    <i class="fas fa-user nav-icon"></i>
+                    <span>Sobre mí</span>
+                </a>
+                <a href="#skills" class="nav-link" data-section="skills">
+                    <i class="fas fa-code nav-icon"></i>
+                    <span>Habilidades</span>
+                </a>
+
+                <a href="#projects" class="nav-link" data-section="projects">
+                    <i class="fas fa-briefcase nav-icon"></i>
+                    <span>Proyectos</span>
+                </a>
+                <a href="#certifications" class="nav-link" data-section="certifications">
+                    <i class="fas fa-certificate nav-icon"></i>
+                    <span>Certificaciones</span>
+                </a>
+                <a href="#contact" class="nav-link" data-section="contact">
+                    <i class="fas fa-envelope nav-icon"></i>
+                    <span>Contacto</span>
+                </a>
+                
+            </div>
+            <div class="hamburger" id="hamburger">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-background">
+            <div class="floating-shapes">
+                <div class="shape shape-1"></div>
+                <div class="shape shape-2"></div>
+                <div class="shape shape-3"></div>
+                <div class="shape shape-4"></div>
+            </div>
+        </div>
+        <div class="hero-container">
+            <div class="hero-content" data-aos="fade-up" data-aos-duration="1000">
+                <div class="hero-greeting">
+                    <span class="greeting-text">Hola, soy</span>
+                </div>
+                <h1 class="hero-title">
+                    <span class="name-highlight">José Cervera</span>
+                </h1>
+                <div class="hero-subtitle">
+                    <span class="typing-text" id="typing-text"></span>
+                    <span class="cursor">|</span>
+                </div>
+                <p class="hero-description">
+                    Docente Informático especializado en desarrollo web frontend, 
+                    apasionado por crear experiencias digitales excepcionales y 
+                    formar a la próxima generación de desarrolladores.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="btn btn-primary">
+                        <i class="fas fa-eye"></i>
+                        Ver Proyectos
+                    </a>
+                    <a href="#contact" class="btn btn-secondary">
+                        <i class="fas fa-download"></i>
+                        Contactar
+                    </a>
+                </div>
+                <div class="hero-social">
+                    <a href="https://github.com/cervereta" target="_blank" class="social-link" title="GitHub">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://www.linkedin.com/in/jose-cervera-51a266232/" target="_blank" class="social-link" title="LinkedIn">
+                        <i class="fab fa-linkedin"></i>
+                    </a>
+                    <a href="mailto:cerveretaprofe@gmail.com" class="social-link" title="Email">
+                        <i class="fas fa-envelope"></i>
+                    </a>
+                    <a href="https://sites.google.com/view/josecervera/inicio" target="_blank" class="social-link" title="Portafolio">
+                        <i class="fas fa-globe"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                <div class="image-container">
+                    <div class="code-editor">
+                        <div class="editor-header">
+                            <div class="editor-buttons">
+                                <span class="btn-close"></span>
+                                <span class="btn-minimize"></span>
+                                <span class="btn-maximize"></span>
+                            </div>
+                            <span class="filename">portfolio.html</span>
+                        </div>
+                        <div class="editor-content">
+                            <div class="code-line">
+                                <span class="line-number">1</span>
+                                <span class="code-tag">&lt;div <span class="code-attr">class</span>=<span class="code-string">"developer"</span>&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">2</span>
+                                <span class="code-indent">  </span><span class="code-tag">&lt;h1&gt;</span><span class="code-text">José Cervera</span><span class="code-tag">&lt;/h1&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">3</span>
+                                <span class="code-indent">  </span><span class="code-tag">&lt;p&gt;</span><span class="code-text">Desarrollador Frontend</span><span class="code-tag">&lt;/p&gt;</span>
+                            </div>
+                            <div class="code-line">
+                                <span class="line-number">4</span>
+                                <span class="code-tag">&lt;/div&gt;</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="scroll-text">Desplázate hacia abajo</div>
+            <div class="scroll-arrow">
+                <i class="fas fa-chevron-down"></i>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Conóceme mejor</span>
+                <h2 class="section-title">Sobre mí</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right" data-aos-duration="1000">
+                    <div class="about-intro">
+                        <h3>Docente Informático y Desarrollador Web Frontend</h3>
+                        <p class="lead">
+                            Soy un desarrollador web frontend apasionado por la tecnología y la educación, 
+                            con más de <strong>6 certificaciones SEPE en 2024</strong> que respaldan mi 
+                            compromiso con el aprendizaje continuo y la excelencia profesional.
+                        </p>
+                    </div>
+                    <div class="about-details">
+                        <p>
+                            Mi enfoque se centra en crear experiencias web modernas, accesibles y responsive 
+                            utilizando las últimas tecnologías frontend. Como docente informático, me 
+                            especializo en formar a futuros desarrolladores, combinando conocimientos 
+                            técnicos sólidos con metodologías pedagógicas efectivas.
+                        </p>
+                        <p>
+                            Tengo experiencia trabajando con <strong>HTML5, CSS3, JavaScript, Bootstrap, PHP y MySQL</strong>, 
+                            así como herramientas modernas de desarrollo como Git y GitHub. Mi pasión por 
+                            la enseñanza me ha llevado a desarrollar contenido educativo y cursos de 
+                            programación web.
+                        </p>
+                    </div>
+                    <div class="about-highlights">
+                        <div class="highlight-item">
+                            <i class="fas fa-graduation-cap"></i>
+                            <div>
+                                <h4>6 Certificaciones SEPE</h4>
+                                <span>Formación profesional 2024</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-code"></i>
+                            <div>
+                                <h4>Desarrollo Frontend</h4>
+                                <span>HTML5, CSS3, JavaScript</span>
+                            </div>
+                        </div>
+                        <div class="highlight-item">
+                            <i class="fas fa-chalkboard-teacher"></i>
+                            <div>
+                                <h4>Docencia Informática</h4>
+                                <span>Formación tecnológica</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="about-stats" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-project-diagram"></i>
+                        </div>
+                        <div class="stat-number" data-target="15">0</div>
+                        <div class="stat-label">Proyectos Completados</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-certificate"></i>
+                        </div>
+                        <div class="stat-number" data-target="6">0</div>
+                        <div class="stat-label">Certificaciones 2024</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-users"></i>
+                        </div>
+                        <div class="stat-number" data-target="50">0</div>
+                        <div class="stat-label">Estudiantes Formados</div>
+                    </div>
+                    <div class="stat-card">
+                        <div class="stat-icon">
+                            <i class="fas fa-clock"></i>
+                        </div>
+                        <div class="stat-number" data-target="1000">0</div>
+                        <div class="stat-label">Horas de Desarrollo</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="skills-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Mis capacidades</span>
+                <h2 class="section-title">Habilidades Técnicas</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="skills-content">
+                <div class="skills-grid">
+                    <!-- Frontend Skills -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="100">
+                        <h3 class="category-title">
+                            <i class="fas fa-palette"></i>
+                            Frontend Development
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">HTML5</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">CSS3</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">JavaScript</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Bootstrap</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Backend Skills -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="200">
+                        <h3 class="category-title">
+                            <i class="fas fa-server"></i>
+                            Backend Development
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">PHP</span>
+                                    <span class="skill-percentage">70%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="70"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">MySQL</span>
+                                    <span class="skill-percentage">75%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="75"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">React</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Node.js</span>
+                                    <span class="skill-percentage">65%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="65"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tools & Technologies -->
+                    <div class="skill-category" data-aos="fade-up" data-aos-delay="300">
+                        <h3 class="category-title">
+                            <i class="fas fa-tools"></i>
+                            Herramientas y Tecnologías
+                        </h3>
+                        <div class="skills-list">
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Git & GitHub</span>
+                                    <span class="skill-percentage">85%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="85"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Responsive Design</span>
+                                    <span class="skill-percentage">95%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="95"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Excel Avanzado</span>
+                                    <span class="skill-percentage">90%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="90"></div>
+                                </div>
+                            </div>
+                            <div class="skill-item">
+                                <div class="skill-header">
+                                    <span class="skill-name">Power BI</span>
+                                    <span class="skill-percentage">80%</span>
+                                </div>
+                                <div class="skill-bar">
+                                    <div class="skill-progress" data-width="80"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ==========================================
+     AI EXPERTISE SECTION
+     ========================================== -->
+<section id="ai-expertise" class="section-padding">
+    <div class="container">
+        <div class="section-header text-center" data-aos="fade-up">
+            <h2 class="section-title">
+                <i class="fas fa-robot"></i>
+                Experiencia en Inteligencia Artificial
+            </h2>
+            <p class="section-subtitle">
+                Especialista en tecnologías de IA generativa, automatización y desarrollo de workflows inteligentes
+            </p>
+        </div>
+
+        <!-- AI Skills Grid -->
+        <div class="ai-expertise-grid" data-aos="fade-up" data-aos-delay="200">
+            
+            <!-- LLMs & Generative AI -->
+            <div class="ai-card" data-aos="zoom-in" data-aos-delay="100">
+                <div class="ai-card-icon">
+                    <i class="fas fa-brain"></i>
+                </div>
+                <h3 class="ai-card-title">LLMs Generativas</h3>
+                <p class="ai-card-description">
+                    Experiencia en implementación y optimización de Large Language Models (GPT, Claude, Gemini) para soluciones empresariales y automatización de procesos.
+                </p>
+                <ul class="ai-tech-list">
+                    <li><i class="fas fa-check"></i> OpenAI GPT-4 & API Integration</li>
+                    <li><i class="fas fa-check"></i> Claude & Anthropic APIs</li>
+                    <li><i class="fas fa-check"></i> Prompt Engineering Avanzado</li>
+                    <li><i class="fas fa-check"></i> Fine-tuning de Modelos</li>
+                </ul>
+            </div>
+
+            <!-- MCPs & Model Control -->
+            <div class="ai-card" data-aos="zoom-in" data-aos-delay="200">
+                <div class="ai-card-icon">
+                    <i class="fas fa-cogs"></i>
+                </div>
+                <h3 class="ai-card-title">MCPs & Control de Modelos</h3>
+                <p class="ai-card-description">
+                    Desarrollo e implementación de Model Control Protocols (MCPs) para gestión eficiente de modelos de IA y control de flujos de datos inteligentes.
+                </p>
+                <ul class="ai-tech-list">
+                    <li><i class="fas fa-check"></i> MCP Server Development</li>
+                    <li><i class="fas fa-check"></i> Model Orchestration</li>
+                    <li><i class="fas fa-check"></i> API Gateway Integration</li>
+                    <li><i class="fas fa-check"></i> Resource Management</li>
+                </ul>
+            </div>
+
+            <!-- Workflows & Automation -->
+            <div class="ai-card" data-aos="zoom-in" data-aos-delay="300">
+                <div class="ai-card-icon">
+                    <i class="fas fa-project-diagram"></i>
+                </div>
+                <h3 class="ai-card-title">Workflows Inteligentes</h3>
+                <p class="ai-card-description">
+                    Diseño y desarrollo de workflows automatizados con IA para optimización de procesos empresariales y automatización de tareas complejas.
+                </p>
+                <ul class="ai-tech-list">
+                    <li><i class="fas fa-check"></i> Process Automation</li>
+                    <li><i class="fas fa-check"></i> Multi-Agent Systems</li>
+                    <li><i class="fas fa-check"></i> Decision Trees con IA</li>
+                    <li><i class="fas fa-check"></i> Orchestration Platforms</li>
+                </ul>
+            </div>
+
+            <!-- Advanced Automation -->
+            <div class="ai-card" data-aos="zoom-in" data-aos-delay="400">
+                <div class="ai-card-icon">
+                    <i class="fas fa-magic"></i>
+                </div>
+                <h3 class="ai-card-title">Automatización Avanzada</h3>
+                <p class="ai-card-description">
+                    Implementación de soluciones de automatización inteligente usando IA para transformación digital y optimización operacional.
+                </p>
+                <ul class="ai-tech-list">
+                    <li><i class="fas fa-check"></i> RPA con IA</li>
+                    <li><i class="fas fa-check"></i> Chatbots & Virtual Assistants</li>
+                    <li><i class="fas fa-check"></i> Document Processing</li>
+                    <li><i class="fas fa-check"></i> Data Analysis Automation</li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- AI Experience Stats -->
+        <div class="ai-stats-container" data-aos="fade-up" data-aos-delay="500">
+            <div class="ai-stats-grid">
+                <div class="ai-stat-item" data-aos="zoom-in" data-aos-delay="100">
+                    <div class="ai-stat-number" data-count="15">0</div>
+                    <div class="ai-stat-label">Proyectos de IA</div>
+                </div>
+                <div class="ai-stat-item" data-aos="zoom-in" data-aos-delay="200">
+                    <div class="ai-stat-number" data-count="8">0</div>
+                    <div class="ai-stat-label">MCPs Desarrollados</div>
+                </div>
+                <div class="ai-stat-item" data-aos="zoom-in" data-aos-delay="300">
+                    <div class="ai-stat-number" data-count="25">0</div>
+                    <div class="ai-stat-label">Workflows Automatizados</div>
+                </div>
+                <div class="ai-stat-item" data-aos="zoom-in" data-aos-delay="400">
+                    <div class="ai-stat-number" data-count="95">0</div>
+                    <div class="ai-stat-label">% Eficiencia Mejorada</div>
+                </div>
+            </div>
+        </div>
+
+        <!-- AI Specializations -->
+        <div class="ai-specializations" data-aos="fade-up" data-aos-delay="600">
+            <h3 class="ai-spec-title">Especializaciones Técnicas</h3>
+            <div class="ai-spec-grid">
+                <div class="ai-spec-item">
+                    <i class="fas fa-code"></i>
+                    <span>Python & AI Libraries</span>
+                </div>
+                <div class="ai-spec-item">
+                    <i class="fas fa-database"></i>
+                    <span>Vector Databases</span>
+                </div>
+                <div class="ai-spec-item">
+                    <i class="fas fa-cloud"></i>
+                    <span>Cloud AI Services</span>
+                </div>
+                <div class="ai-spec-item">
+                    <i class="fas fa-network-wired"></i>
+                    <span>MLOps & Deployment</span>
+                </div>
+                <div class="ai-spec-item">
+                    <i class="fas fa-chart-line"></i>
+                    <span>Performance Optimization</span>
+                </div>
+                <div class="ai-spec-item">
+                    <i class="fas fa-shield-alt"></i>
+                    <span>AI Ethics & Security</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="projects-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Mis trabajos</span>
+                <h2 class="section-title">Proyectos Destacados</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="projects-grid">
+                <div class="project-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="project-image">
+                        <img src="images/portfolio-project.webp" alt="Portafolio Personal">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="https://github.com/cervereta/portafolio" target="_blank" class="project-link" title="Ver código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Portafolio Personal</h3>
+                        <p class="project-description">
+                            Portafolio web responsive desarrollado con HTML5, CSS3 y JavaScript. 
+                            Incluye navegación suave, efectos hover y diseño moderno con 
+                            gradientes y animaciones CSS.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                            <span class="tech-tag">Bootstrap</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="project-image">
+                        <img src="images/education-project.jpg" alt="Aplicación de Gestión Educativa">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ver código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Sistema de Gestión Educativa</h3>
+                        <p class="project-description">
+                            Sistema web completo para gestión de cursos y estudiantes con 
+                            panel de administración, reportes y funcionalidades de seguimiento 
+                            académico desarrollado en equipo.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PHP</span>
+                            <span class="tech-tag">MySQL</span>
+                            <span class="tech-tag">Bootstrap</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="project-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="project-image">
+                        <img src="images/dashboard-project.png" alt="Dashboard Analítico">
+                        <div class="project-overlay">
+                            <div class="project-links">
+                                <a href="#" class="project-link" title="Ver código">
+                                    <i class="fab fa-github"></i>
+                                </a>
+                                <a href="#" class="project-link" title="Ver demo">
+                                    <i class="fas fa-external-link-alt"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3 class="project-title">Dashboard Analítico</h3>
+                        <p class="project-description">
+                            Dashboard interactivo para visualización de datos educativos 
+                            utilizando Power BI y Excel avanzado. Incluye gráficos dinámicos, 
+                            KPIs y reportes automatizados.
+                        </p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Power BI</span>
+                            <span class="tech-tag">Excel</span>
+                            <span class="tech-tag">SQL</span>
+                            <span class="tech-tag">DAX</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Certifications Section -->
+    <section id="certifications" class="certifications-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">Mi formación</span>
+                <h2 class="section-title">Certificaciones Profesionales</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="certifications-grid">
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="100">
+                    <div class="cert-icon">
+                        <i class="fas fa-chalkboard-teacher"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Docencia de la Formación Profesional</h3>
+                        <div class="cert-details">
+                            <span class="cert-org">SEPE</span>
+                            <span class="cert-date">2024</span>
+                            <span class="cert-code">SSCE0110</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="150">
+                    <div class="cert-icon">
+                        <i class="fas fa-user-tie"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Asistencia a la Dirección</h3>
+                        <div class="cert-details">
+                            <span class="cert-org">SEPE</span>
+                            <span class="cert-date">2024</span>
+                            <span class="cert-code">ADGG0108</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="200">
+                    <div class="cert-icon">
+                        <i class="fas fa-comments"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Comunicación Digital al Cliente</h3>
+                        <div class="cert-details">
+                            <span class="cert-org">SEPE</span>
+                            <span class="cert-date">2024</span>
+                            <span class="cert-code">ADGG108PO</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="250">
+                    <div class="cert-icon">
+                        <i class="fas fa-laptop"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Competencias Digitales Básicas</h3>
+                        <div class="cert-details">
+                            <span class="cert-org">SEPE</span>
+                            <span class="cert-date">2024</span>
+                            <span class="cert-code">IFCT45</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="300">
+                    <div class="cert-icon">
+                        <i class="fas fa-microchip"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Competencias Digitales Avanzadas</h3>
+                        <div class="cert-details">
+                            <span class="cert-org">SEPE</span>
+                            <span class="cert-date">2024</span>
+                            <span class="cert-code">IFCT46</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="certification-card" data-aos="fade-up" data-aos-delay="350">
+                    <div class="cert-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <div class="cert-content">
+                        <h3 class="cert-title">Excel Avanzado y Power BI</h3>
+                        <div class="cert-details">
+                            <span class="cert-org">SEPE</span>
+                            <span class="cert-date">2024</span>
+                            <span class="cert-code">IFCT56</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <div class="container">
+            <div class="section-header" data-aos="fade-up">
+                <span class="section-subtitle">¿Hablamos?</span>
+                <h2 class="section-title">Contacto</h2>
+                <div class="section-divider"></div>
+            </div>
+            <div class="contact-content">
+                <div class="contact-info" data-aos="fade-right" data-aos-duration="1000">
+                    <h3>¡Trabajemos juntos!</h3>
+                    <p>
+                        Estoy disponible para nuevos proyectos y oportunidades de colaboración. 
+                        Si tienes una idea interesante o necesitas un desarrollador frontend 
+                        comprometido, no dudes en contactarme.
+                    </p>
+                    
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Email</h4>
+                                <a href="mailto:cerveretaprofe@gmail.com">cerveretaprofe@gmail.com</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-linkedin"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>LinkedIn</h4>
+                                <a href="https://www.linkedin.com/in/jose-cervera-51a266232/" target="_blank">José Cervera</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fab fa-github"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>GitHub</h4>
+                                <a href="https://github.com/cervereta" target="_blank">@cervereta</a>
+                            </div>
+                        </div>
+                        
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-globe"></i>
+                            </div>
+                            <div class="contact-details">
+                                <h4>Portafolio</h4>
+                                <a href="https://sites.google.com/view/josecervera/inicio" target="_blank">Google Sites</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="contact-form-container" data-aos="fade-left" data-aos-duration="1000" data-aos-delay="200">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="name">Nombre *</label>
+                            <input type="text" id="name" name="name" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="subject">Asunto *</label>
+                            <input type="text" id="subject" name="subject" required>
+                        </div>
+                        
+                        <div class="form-group">
+                            <label for="message">Mensaje *</label>
+                            <textarea id="message" name="message" rows="5" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="btn btn-primary">
+                            <i class="fas fa-paper-plane"></i>
+                            Enviar Mensaje
+                        </button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <div class="footer-logo">
+                        <span class="logo-bracket">&lt;</span>
+                        <span class="logo-name">José Cervera</span>
+                        <span class="logo-bracket">/&gt;</span>
+                    </div>
+                    <p class="footer-description">
+                        Docente Informático y Desarrollador Web Frontend apasionado por 
+                        crear experiencias digitales excepcionales.
+                    </p>
+                </div>
+                <div class="footer-center">
+                    <h4>Enlaces Rápidos</h4>
+                    <div class="footer-links">
+                        <a href="#home">Inicio</a>
+                        <a href="#about">Sobre mí</a>
+                        <a href="#skills">Habilidades</a>
+                        <a href="#projects">Proyectos</a>
+                        <a href="#certifications">Certificaciones</a>
+                        <a href="#contact">Contacto</a>
+                    </div>
+                </div>
+                <div class="footer-right">
+                    <h4>Sígueme</h4>
+                    <div class="footer-social">
+                        <a href="https://github.com/cervereta" target="_blank" title="GitHub">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/jose-cervera-51a266232/" target="_blank" title="LinkedIn">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="mailto:cerveretaprofe@gmail.com" title="Email">
+                            <i class="fas fa-envelope"></i>
+                        </a>
+                        <a href="https://sites.google.com/view/josecervera/inicio" target="_blank" title="Portafolio">
+                            <i class="fas fa-globe"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2024 José Cervera. Todos los derechos reservados.</p>
+                <p>Desarrollado con ❤️ usando HTML5, CSS3 y JavaScript Vanilla</p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scroll to Top Button -->
+    <button id="scrollToTop" class="scroll-to-top" title="Volver arriba">
+        <i class="fas fa-chevron-up"></i>
+    </button>
+
+    <!-- JavaScript Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/aos/2.3.4/aos.js"></script>
+    
+    <!-- Custom JavaScript -->
+    <script src="js/script.js"></script>
+
+<style>
+#minimax-floating-ball {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  padding: 10px 12px;
+  background: #222222;
+  border-radius: 12px;
+  display: flex;
+  align-items: center;
+  color: #F8F8F8;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+  z-index: 9999;
+  transition: all 0.3s ease;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#minimax-floating-ball:hover {
+  transform: translateY(-2px);
+  background: #383838;
+}
+
+.minimax-ball-content {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.minimax-logo-wave {
+  width: 26px;
+  height: 22px;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='26' height='22' viewBox='0 0 26 22' fill='none'%3E%3Cg clip-path='url(%23clip0_3442_102412)'%3E%3Cpath d='M12.8405 14.6775C12.8405 14.9897 13.0932 15.2424 13.4055 15.2424C13.7178 15.2424 13.9705 14.9897 13.9705 14.6775V2.98254C13.9705 1.88957 13.0809 1 11.9879 1C10.895 1 10.0054 1.88957 10.0054 2.98254V11.566V17.1068C10.0054 17.5773 9.62327 17.9594 9.1528 17.9594C8.68233 17.9594 8.30021 17.5773 8.30021 17.1068V8.04469C8.30021 6.95172 7.41063 6.06215 6.31767 6.06215C5.22471 6.06215 4.33513 6.95172 4.33513 8.04469V11.8855C4.33513 12.3559 3.953 12.7381 3.48254 12.7381C3.01207 12.7381 2.62994 12.3559 2.62994 11.8855V10.4936C2.62994 10.1813 2.37725 9.92861 2.06497 9.92861C1.7527 9.92861 1.5 10.1813 1.5 10.4936V11.8855C1.5 12.9784 2.38957 13.868 3.48254 13.868C4.5755 13.868 5.46508 12.9784 5.46508 11.8855V8.04469C5.46508 7.57422 5.8472 7.19209 6.31767 7.19209C6.78814 7.19209 7.17026 7.57422 7.17026 8.04469V17.1068C7.17026 18.1998 8.05984 19.0894 9.1528 19.0894C10.2458 19.0894 11.1353 18.1998 11.1353 17.1068V2.98254C11.1353 2.51207 11.5175 2.12994 11.9879 2.12994C12.4584 2.12994 12.8405 2.51207 12.8405 2.98254V14.6775Z' fill='%23F8F8F8'/%3E%3Cpath d='M23.3278 6.06215C22.2348 6.06215 21.3452 6.95172 21.3452 8.04469V15.6143C21.3452 16.0847 20.9631 16.4669 20.4926 16.4669C20.0222 16.4669 19.6401 16.0847 19.6401 15.6143V2.98254C19.6401 1.88957 18.7505 1 17.6575 1C16.5645 1 15.675 1.88957 15.675 2.98254V19.0175C15.675 19.4879 15.2928 19.8701 14.8224 19.8701C14.3519 19.8701 13.9698 19.4879 13.9698 19.0175V17.0329C13.9698 16.7206 13.7171 16.4679 13.4048 16.4679C13.0925 16.4679 12.8398 16.7206 12.8398 17.0329V19.0175C12.8398 20.1104 13.7294 21 14.8224 21C15.9153 21 16.8049 20.1104 16.8049 19.0175V2.98254C16.8049 2.51207 17.187 2.12994 17.6575 2.12994C18.128 2.12994 18.5101 2.51207 18.5101 2.98254V15.6143C18.5101 16.7072 19.3997 17.5968 20.4926 17.5968C21.5856 17.5968 22.4752 16.7072 22.4752 15.6143V8.04469C22.4752 7.57422 22.8573 7.19209 23.3278 7.19209C23.7982 7.19209 24.1804 7.57422 24.1804 8.04469V14.6775C24.1804 14.9897 24.4331 15.2424 24.7453 15.2424C25.0576 15.2424 25.3103 14.9897 25.3103 14.6775V8.04469C25.3103 6.95172 24.4207 6.06215 23.3278 6.06215Z' fill='%23F8F8F8'/%3E%3C/g%3E%3Cdefs%3E%3CclipPath id='clip0_3442_102412'%3E%3Crect width='25' height='22' fill='white' transform='translate(0.5)'/%3E%3C/clipPath%3E%3C/defs%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.minimax-ball-text {
+  font-size: 12px;
+  font-weight: 500;
+  white-space: nowrap;
+}
+
+.minimax-close-icon {
+  margin-left: 8px;
+  font-size: 16px;
+  width: 18px;
+  height: 18px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+  cursor: pointer;
+  opacity: 0.7;
+  transition: opacity 0.2s ease;
+}
+
+.minimax-close-icon:hover {
+  opacity: 1;
+}
+</style>
+
+
+</body>
+</html>
