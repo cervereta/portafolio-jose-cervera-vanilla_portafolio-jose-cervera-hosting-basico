@@ -29,11 +29,11 @@
 
     // Typing animation texts
     const typingTexts = [
-        'Desarrollador Frontend',
+        'Desarrollador Web',
         'Docente Informático',
-        'Especialista en HTML5',
-        'Experto en CSS3',
-        'Profesor de JavaScript',
+        'Especialista en HTML5 CSS3 y JavaScript',
+        'Experto en PHP y MySQL',
+        'Desarrollador de Aplicaciones Web',
         'Formador Tecnológico'
     ];
 
