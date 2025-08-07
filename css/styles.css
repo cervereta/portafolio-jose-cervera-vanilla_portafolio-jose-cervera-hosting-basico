@@ -1123,6 +1123,66 @@ section {
 }
 
 /* ===============================================
+   CALENDAR SECTION
+   =============================================== */
+
+.calendar-section {
+    background: var(--gray-50);
+    padding: var(--section-padding);
+}
+
+.calendar-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 2rem 0;
+}
+
+.calendar-iframe {
+    width: 80%;
+    max-width: 1000px;
+    min-width: 320px;
+    height: 600px;
+    border: none;
+    border-radius: var(--radius-xl);
+    box-shadow: var(--shadow-xl);
+    background: var(--white);
+    transition: all var(--transition-normal);
+}
+
+.calendar-iframe:hover {
+    transform: translateY(-5px);
+    box-shadow: var(--shadow-2xl);
+}
+
+/* Responsive adjustments for calendar */
+@media (max-width: 1024px) {
+    .calendar-iframe {
+        width: 90%;
+        height: 550px;
+    }
+}
+
+@media (max-width: 768px) {
+    .calendar-iframe {
+        width: 95%;
+        height: 500px;
+    }
+    
+    .calendar-container {
+        padding: 1rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .calendar-iframe {
+        width: 100%;
+        height: 450px;
+        border-radius: var(--radius-lg);
+    }
+}
+
+/* ===============================================
    CONTACT SECTION
    =============================================== */
 
